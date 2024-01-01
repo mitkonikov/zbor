@@ -4,6 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "target": "zbor",
     "public": "zbor/build",
     "ignore": [
       "firebase.json",

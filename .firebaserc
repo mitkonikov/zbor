@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "zbor-df052"
+  },
+  "targets": {
+    "zbor-df052": {
+      "hosting": {
+        "zbor": [
+          "zbor"
+        ]
+      }
+    }
+  }
+}

@@ -10,3 +10,4 @@ This project uses the following frameworks and libraries:
  - [Typescript](https://typescript.com)
  - [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
  - [Vite](https://vitejs.dev/) and [Vitest](https://vitest.dev/)
+ - [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/)

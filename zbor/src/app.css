@@ -6,5 +6,5 @@
     font-family: 'Kapak';
     font-style: normal;
     font-weight: 500;
-    src: url('Kapak.ttf');
+    src: url('./../static/Kapak.ttf');
 }

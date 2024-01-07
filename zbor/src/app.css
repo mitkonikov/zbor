@@ -3,8 +3,43 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Kapak';
-    font-style: normal;
-    font-weight: 500;
-    src: url('./../static/Kapak.ttf');
+	font-family: 'Kapak';
+	font-style: normal;
+	font-weight: 500;
+	src: url('./../static/Kapak.ttf');
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.card {
+	border-radius: 0;
+}
+
+.card-body {
+	padding: 1em;
+}
+
+.separator {
+	height: 1em;
+}
+
+.btn-square {
+	border-radius: 0;
+}
+
+.btn-icon {
+	background-color: inherit;
+	border: 0;
+}
+
+.input {
+	border-radius: 0;
 }

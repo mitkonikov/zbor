@@ -1,6 +1,21 @@
+<script>
+	import ContactIcons from '../components/ContactIcons.svelte';
+	import Separator from '../components/Separator.svelte';
+	import Logo from '../components/Logo.svelte';
+	import Search from '../components/wordSearch/Search.svelte';
+</script>
+
+<svelte:head>
+	<title>ЗБОР</title>
+    <meta name="description" content="ЗБОР е платформа за истражување на македонскиот јазик."/>
+</svelte:head>
+
 <div class="container max-w-md h-screen flex items-center justify-center">
-    <div class="">
-        <h1 class="text-center text-8xl" style="font-family: Kapak">ЗБОР</h1>
-        <p class="text-center">Under construction.</p>
-    </div>
+	<div class="">
+		<Logo/>
+        <Separator/>
+		<!-- <Search/> -->
+        <Separator/>
+		<ContactIcons />
+	</div>
 </div>

@@ -10,12 +10,14 @@ export default {
 	daisyui: {
 		themes: [
 			{
-				mytheme: {
+				zbor: {
 					primary: '#47d6de',
 					secondary: '#de4040',
 					accent: '#ff6542',
-					neutral: '#0d0f18',
-          'base-100': '#04232a',
+					neutral: '#06313b',
+          			'base-100': '#04232a',
+          			'base-200': '#005063',
+          			'base-300': '#105570',
 					info: '#00f2ff',
 					success: '#03ff7d',
 					warning: '#ff9100',
